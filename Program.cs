@@ -9,7 +9,7 @@ internal class Program
         {
             Console.Write("Введите кол-во рабочих дней: ");
             try
-            {
+            { 
                 if (int.TryParse(Console.ReadLine(),out int dayCounStandart))
                 {
                     var hourCountStandart = dayCounStandart * 8;
